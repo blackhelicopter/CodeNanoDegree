@@ -1,0 +1,4 @@
+git init
+	This will re-initialize git on your machine.
+git status
+	After you re-initialize, this will tell you what files are in the git working directory and which are being tracked and not tracked.
