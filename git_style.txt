@@ -1,3 +1,4 @@
+
 git --help
 	This will help you refer to the most used commands.
 git init
@@ -21,3 +22,13 @@ git commit -m "Pushing some adds to gitstyle."
 git config -l
 	Lists the git configuration variables.
 
+xxxxxxxxxxxxxxxx
+
+1. git init
+2. git status
+3. git add "filename"
+	moves a file with changes to the push stage
+4. git commit -m "This is an update to...blah blah blah."
+5. git push
+
+xxxxxxxxxxxxxxxx
