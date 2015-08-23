@@ -1,2 +1,0 @@
-# CodeNanoDegree
-Whatever
