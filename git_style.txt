@@ -13,3 +13,11 @@ git push
 	This is the simple command, once we have installed git, told it about our remote repo, and added files locally, 
 	that will send our local files to the remote repo. git push origin master
 	I could use this more specific command if I had more than one branch, or 'origin', but I don't right now.
+git commit -m "Pushing some adds to gitstyle."
+	This worked:
+		$git init
+		$git commit -m "Pushing some adds to gitstyle."
+		$git push 
+git config -l
+	Lists the git configuration variables.
+
