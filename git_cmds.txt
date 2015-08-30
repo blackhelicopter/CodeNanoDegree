@@ -1,0 +1,34 @@
+
+git --help
+	This will help you refer to the most used commands.
+git init
+	This will re-initialize git on your machine and allow you to run git commands.
+	To add a new folder to git, go to that folder and initialize git there.  This folder becomes a git repository.
+git status
+	After you re-initialize, this will tell you what files are in the git working directory and which are being 
+		tracked and not tracked.
+git remote -v
+	This will tell you all of the remote 'origins', or repositories your local git knows about.
+	It is listed twice, which means it is available to push info to, and to fetch info from.
+git push
+	This is the simple command, once we have installed git, told it about our remote repo, and added files locally, 
+	that will send our local files to the remote repo. git push origin master
+	I could use this more specific command if I had more than one branch, or 'origin', but I don't right now.
+git commit -m "Pushing some adds to gitstyle."
+	This worked:
+		$git init
+		$git commit -m "Pushing some adds to gitstyle."
+		$git push 
+git config -l
+	Lists the git configuration variables.
+
+xxxxxxxxxxxxxxxx
+
+1. git init
+2. git status
+3. git add "filename"
+	moves a file with changes to the push stage
+4. git commit -m "This is an update to...blah blah blah."
+5. git push
+
+xxxxxxxxxxxxxxxx

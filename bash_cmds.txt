@@ -1,0 +1,16 @@
+. means this directory, useful in convoluted commands
+.. means parent directory, useful when changing directories
+../homie, changes up to the parent and enters a known directory
+ls, lists files top down
+ls -a, lists all files including hidden files
+ls -m, lists all files flattened out like a pancake
+ls -l
+cat, prints out the contents of a file to the screen
+history, prints a list of previously executed commands by number
+mv, moves a file from one dir to another, or renames it
+cp, copy
+chmod, used to modify permissions of files or directories
+env, shows environmental variables for your shell
+PATH, env variable that tells the system where executable files are
+shell, a program that functions as a command line interpreter
+

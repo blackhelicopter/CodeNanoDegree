@@ -1,0 +1,31 @@
+sets up authentication by opening a browser and prompting for a google account to associate the Dev Console with.
+gcloud auth login
+
+ssh to the instance:
+gcloud compute --project "pristine-ally-667" ssh --zone "us-central1-a" "as-lamp-magento"
+
+help
+gcloud <command> -h        summary help
+gcloud <command> --help    detailed help
+
+create a file
+pico myfile.htm     creates the file and opens and editor
+>myfile.htm         creates the file in the current directory but doesn't open the editor
+
+list the firewall rules
+gcloud compute firewall-rules list
+
+list the disks
+gcloud compute disks list
+
+list the machine types possible
+gcloud compute machine-types list
+
+request info about the default network
+gcloud compute networks describe default --format json
+gcloud compute networks list
+gcloud compute networks --help  :for a complete list of values you can set when creating a new netowrk
+
+
+gcloud compute firewall-rules create FIREWALL_RULE --allow tcp:80 tcp:443
+
